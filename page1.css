@@ -1,6 +1,6 @@
 body {
   background-color: whitesmoke;
-  background-image: url(https://i.pinimg.com/564x/f0/8d/b2/f08db2348d50e528b5b9dc3f1add1153.jpg);
+  background-image: url("https://i.pinimg.com/564x/f0/8d/b2/f08db2348d50e528b5b9dc3f1add1153.jpg");
 
   /* المطلوب الاول هنا  */
   /*   : (الصورة) عدل على الخلفيه     */
@@ -8,10 +8,15 @@ body {
   /* 2. اجعل الصورة تظهر مرة واحد   */
   /* hint : repeat proparty */
   /* اكتب  الكود هنا 👇🏽 */
+  background-repeat: no-repeat;
+  background-size: 100px;
 
   /* المطلوب الخامس هنا  */
   /* يظهر بمتنصف الصفحة  movie card  اجعل ال   */
   /* اكتب  الكود هنا 👇🏽 */
+  display:flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .myimage {
@@ -20,6 +25,11 @@ body {
   /* 2, border radius */
   /* 3. add box shadow */
   /* اكتب  الكود هنا 👇🏽 */
+  height: 250px;
+  border-radius: 10%;
+  box-shadow: 20px 20px 10px darkred;
+  height: 100vh;
+  margin:100px;
 }
 
 .button {
@@ -29,6 +39,13 @@ body {
          3.remove border
          4. change  background color */
   /* اكتب  الكود هنا 👇🏽 */
+  height: 80px;
+  width: 800px;
+  border: none;
+  background-color: black;
+  color:white;
+  font-size: 50px;
+  
 }
 
 .container {
@@ -41,4 +58,10 @@ body {
        6.اجعل العناصر تظهر بمنتص البطاقة
        7.  border radius */
   /* اكتب  الكود هنا 👇🏽 */
+  background-color:#9b2226;
+  border-radius: 10%;
+  margin:150px;
+  font-size: 50px;
+  padding: 100px;
+
 }
